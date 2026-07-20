@@ -1,0 +1,1072 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oppty TechHub — Premium Enterprise Web Solutions & Portfolios</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- STICKY HEADER -->
+    <header class="header" id="site-header">
+      <div class="header-container">
+        <a href="#hero-section" class="brand" aria-label="Oppty TechHub Home">
+          <!-- REPLACE 'your-logo.png' with your actual logo filename -->
+          <img src="oppty.png" alt="Oppty TechHub Logo" class="logo-img" />
+          <h1 class="brand-name">Oppty<span>TechHub</span></h1>
+        </a>
+      </div>
+    </header>
+
+    <!-- ANIMATED PARTICLES CANVAS -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- HERO SECTION -->
+    <section class="hero section-bg-white" id="hero-section">
+      <div class="hero-bg-animation">
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+        <div class="hero-orb orb-3"></div>
+        <div class="hero-grid-lines"></div>
+      </div>
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content" data-aos="fade-right">
+            <div class="hero-logo-tag">
+              <!-- REPLACE 'your-logo.png' with your actual logo filename -->
+              <img src="your-logo.png" alt="Oppty TechHub" class="hero-logo-img" />
+              <span class="hero-logo-text">Oppty TechHub</span>
+            </div>
+            <div class="hero-title-wrap">
+              <h2 class="hero-title">
+                <span class="title-line" data-aos="fade-up" data-aos-delay="100">Building Websites</span>
+                <span class="title-line orange-line" data-aos="fade-up" data-aos-delay="200">That Build Businesses.</span>
+              </h2>
+            </div>
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+              We design and engineer bespoke enterprise-grade web applications and high-converting marketing platforms for global firms. Turn complex digital problems into elegant, scale-tested market advantages.
+            </p>
+            <div class="hero-cta-group" data-aos="fade-up" data-aos-delay="400">
+              <a href="#cta-section" class="btn-primary">
+                <span>Start Your Project</span>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                  <path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+              <a href="#cases-section" class="btn-ghost">View Case Studies</a>
+            </div>
+          </div>
+
+          <div class="hero-visual" data-aos="fade-left" data-aos-delay="200">
+            <div class="dashboard-container" id="mockup-dashboard">
+              <div class="dashboard-header">
+                <div class="window-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="window-address-bar">oppty.tech/dashboard</div>
+                <div style="width: 24px;"></div>
+              </div>
+              <div class="dashboard-body-wrap">
+                <aside class="dashboard-sidebar">
+                  <div class="sidebar-circle"></div>
+                  <div class="sidebar-item active"></div>
+                  <div class="sidebar-item"></div>
+                  <div class="sidebar-item"></div>
+                  <div class="sidebar-item"></div>
+                </aside>
+                <main class="dashboard-content">
+                  <div class="dashboard-top-cards">
+                    <div class="mini-card">
+                      <div class="mini-card-bar"></div>
+                      <div class="mini-card-num"></div>
+                    </div>
+                    <div class="mini-card">
+                      <div class="mini-card-bar"></div>
+                      <div class="mini-card-num"></div>
+                    </div>
+                  </div>
+                  <div class="dashboard-chart-sec">
+                    <div class="chart-title-bar"></div>
+                    <div class="chart-bars-container">
+                      <div class="chart-bar" style="height: 40px;"></div>
+                      <div class="chart-bar" style="height: 65px;"></div>
+                      <div class="chart-bar highlight" style="height: 80px;"></div>
+                      <div class="chart-bar" style="height: 50px;"></div>
+                      <div class="chart-bar" style="height: 30px;"></div>
+                      <div class="chart-bar" style="height: 70px;"></div>
+                    </div>
+                  </div>
+                </main>
+              </div>
+              <div class="floating-widget" id="floating-notification">
+                <div class="widget-icon"></div>
+                <div class="widget-info">
+                  <span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <!-- Decorative floating elements -->
+            <div class="hero-float-badge badge-top-right" data-aos="zoom-in" data-aos-delay="600">
+              <span class="pulse-dot"></span>
+              <span>Live Monitoring</span>
+            </div>
+            <div class="hero-float-badge badge-bottom-left" data-aos="zoom-in" data-aos-delay="700">
+              <span>⚡</span>
+              <span>99.9% Uptime</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- HERO STATS CARDS -->
+        <div class="hero-stats-grid">
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="100" id="stat-solutions">
+            <div class="stat-icon-shape"><span></span></div>
+            <h3 class="stat-title">Web Solutions</h3>
+            <p class="stat-desc">Custom-built web platforms structured specifically for high operational efficiency and clean digital presence.</p>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="200" id="stat-centric">
+            <div class="stat-icon-shape circle"><span></span></div>
+            <h3 class="stat-title">Client-Centric</h3>
+            <p class="stat-desc">Designed with your target demographic in focus, ensuring perfect user journeys and solid engagement.</p>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="300" id="stat-scalable">
+            <div class="stat-icon-shape triangle"><span></span></div>
+            <h3 class="stat-title">Scalable Architecture</h3>
+            <p class="stat-desc">Robust enterprise frameworks constructed to absorb rapid user traffic growth without structural lag.</p>
+          </div>
+          <div class="stat-card" data-aos="fade-up" data-aos-delay="400" id="stat-support">
+            <div class="stat-icon-shape"><span style="transform: rotate(45deg);"></span></div>
+            <h3 class="stat-title">End-to-End Support</h3>
+            <p class="stat-desc">Comprehensive cycle coverage from conceptual discovery to performance hosting and updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPANY OVERVIEW -->
+    <section class="section-bg-light" id="overview-section">
+      <div class="section-animated-bg">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+      </div>
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Who We Are</span>
+          <h2 class="section-title">Enabling Digital Dominance</h2>
+          <p class="section-subtitle">We are architects of modern corporate web environments, combining pristine visual aesthetics with high-grade engineering.</p>
+        </div>
+
+        <div class="overview-grid">
+          <div class="overview-left">
+            <div class="overview-block" data-aos="fade-right" data-aos-delay="100" id="block-mission">
+              <h3 class="overview-block-title">Our Mission</h3>
+              <p class="overview-block-desc">To transform traditional commercial operations through premium, enterprise-level digital architecture that accelerates organic conversions, protects integrity, and scales natively.</p>
+            </div>
+            <div class="overview-block" data-aos="fade-right" data-aos-delay="200" id="block-vision">
+              <h3 class="overview-block-title">Our Vision</h3>
+              <p class="overview-block-desc">To establish the benchmark for digital craftsmanship, engineering high-fidelity platforms that become core business growth pillars for global industry leaders.</p>
+            </div>
+            <div class="overview-block" data-aos="fade-right" data-aos-delay="300" id="block-values">
+              <h3 class="overview-block-title">Core Values</h3>
+              <p class="overview-block-desc">Uncompromising engineering precision, beautiful architectural honesty, and a dedicated results-first perspective in every line of code we ship.</p>
+            </div>
+          </div>
+
+          <div class="overview-right">
+            <div class="overview-block" data-aos="fade-left" data-aos-delay="100" id="block-highlights">
+              <h3 class="overview-block-title">Company Highlights</h3>
+              <ul class="highlights-list">
+                <li>Over a decade of core team enterprise web development expertise.</li>
+                <li>Consistently rated excellent for clean production execution.</li>
+                <li>Rigorous performance-oriented framework setups on every deployment.</li>
+              </ul>
+            </div>
+            <div class="overview-block" data-aos="fade-left" data-aos-delay="200" id="block-focus">
+              <h3 class="overview-block-title">Business Focus</h3>
+              <p class="overview-block-desc">Delivering flawless, highly interactive business platforms, premium corporate identity landing pages, and responsive web systems that perform beautifully on all digital devices.</p>
+            </div>
+            <div class="overview-block" data-aos="fade-left" data-aos-delay="300" id="block-expertise">
+              <h3 class="overview-block-title">Technology Expertise</h3>
+              <p class="overview-block-desc">Specialized in micro-frontend development, headless CMS setups, secured cloud hosting, relational data scaling, and search engine optimization frameworks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE BUSINESS PROBLEM -->
+    <section class="section-bg-white" id="problem-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">The Hard Truths</span>
+          <h2 class="section-title">Critical Technical Bottlenecks</h2>
+          <p class="section-subtitle">A subpar web environment actively bleeds capital. Here are the core challenges modern businesses encounter on outdated setups.</p>
+        </div>
+
+        <div class="problem-grid">
+          <div class="problem-card" data-aos="fade-up" data-aos-delay="100" id="prob-outdated">
+            <span class="problem-number">01 / REPUTATION</span>
+            <h3 class="problem-title">Outdated Websites</h3>
+            <p class="problem-desc">Legacy design patterns and awkward structures fail to establish authority, instantly turning high-value leads away to modern competitors.</p>
+          </div>
+          <div class="problem-card" data-aos="fade-up" data-aos-delay="150" id="prob-performance">
+            <span class="problem-number">02 / RETENTION</span>
+            <h3 class="problem-title">Slow Performance</h3>
+            <p class="problem-desc">Slow load times of more than three seconds result in massive user drop-offs and poor brand reliability. Speed is profit.</p>
+          </div>
+          <div class="problem-card" data-aos="fade-up" data-aos-delay="200" id="prob-seo">
+            <span class="problem-number">03 / DISCOVERY</span>
+            <h3 class="problem-title">Poor SEO</h3>
+            <p class="problem-desc">Sub-optimal indexation pipelines and heavy templates hide your organization from critical search results, starving organic traffic.</p>
+          </div>
+          <div class="problem-card" data-aos="fade-up" data-aos-delay="250" id="prob-conversions">
+            <span class="problem-number">04 / REVENUE</span>
+            <h3 class="problem-title">Low Conversions</h3>
+            <p class="problem-desc">Unclear call-to-action hierarchies and complex navigation pathways prevent users from initiating contact or completing sales.</p>
+          </div>
+          <div class="problem-card" data-aos="fade-up" data-aos-delay="300" id="prob-security">
+            <span class="problem-number">05 / RISK</span>
+            <h3 class="problem-title">Security Issues</h3>
+            <p class="problem-desc">Unpatched dependencies and poorly configured firewalls leave your business vulnerable to data breaches, audits, and down-time.</p>
+          </div>
+          <div class="problem-card" data-aos="fade-up" data-aos-delay="350" id="prob-ux">
+            <span class="problem-number">06 / SATISFACTION</span>
+            <h3 class="problem-title">Bad UX</h3>
+            <p class="problem-desc">Frustrating user experiences leave potential partners with a negative association of your corporate service capacity.</p>
+          </div>
+          <div class="problem-card" data-aos="fade-up" data-aos-delay="400" id="prob-responsive">
+            <span class="problem-number">07 / ACCESSIBILITY</span>
+            <h3 class="problem-title">Non-Responsive Layout</h3>
+            <p class="problem-desc">Web interfaces that break on small mobile viewpoints disconnect you from more than half of the worldwide internet market.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OUR SOLUTIONS -->
+    <section class="section-bg-navy" id="solutions-section">
+      <div class="navy-animated-bg">
+        <div class="navy-orb navy-orb-1"></div>
+        <div class="navy-orb navy-orb-2"></div>
+        <div class="navy-grid-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge badge-navy">Our Answers</span>
+          <h2 class="section-title">Engineered to Excel</h2>
+          <p class="section-subtitle">We design clean, secured, and lightning-fast digital solutions to convert visitors into lifelong corporate partners.</p>
+        </div>
+
+        <div class="solution-grid">
+          <div class="solution-card" data-aos="flip-left" data-aos-delay="100" id="sol-ui">
+            <div class="solution-illustration ill-ui" aria-hidden="true"></div>
+            <h3 class="solution-title">Modern UI</h3>
+            <p class="solution-desc">Bespoke layouts using ample whitespace, rich typography, and beautiful visual depth that mirror the high-value status of your brand.</p>
+          </div>
+          <div class="solution-card" data-aos="flip-left" data-aos-delay="200" id="sol-seo">
+            <div class="solution-illustration ill-seo" aria-hidden="true"></div>
+            <h3 class="solution-title">SEO Optimized</h3>
+            <p class="solution-desc">Built with optimized semantic hierarchy, structured metadata schemas, and rapid indexation templates for high page rankings.</p>
+          </div>
+          <div class="solution-card" data-aos="flip-left" data-aos-delay="300" id="sol-responsive">
+            <div class="solution-illustration ill-responsive" aria-hidden="true"></div>
+            <h3 class="solution-title">Perfect Responsiveness</h3>
+            <p class="solution-desc">Fluid design components that scale with mathematical precision across standard mobile, tablet, and widescreen layouts.</p>
+          </div>
+          <div class="solution-card" data-aos="flip-left" data-aos-delay="400" id="sol-perf">
+            <div class="solution-illustration ill-performance" aria-hidden="true"></div>
+            <h3 class="solution-title">Fast Performance</h3>
+            <p class="solution-desc">Clean code with compressed assets, minimal rendering paths, and efficient delivery structures, securing top lighthouse marks.</p>
+          </div>
+          <div class="solution-card" data-aos="flip-left" data-aos-delay="500" id="sol-sec">
+            <div class="solution-illustration ill-security" aria-hidden="true"></div>
+            <h3 class="solution-title">Advanced Security</h3>
+            <p class="solution-desc">Secure-first development, zero configuration leaks, sanitization modules, and strict headers to protect critical customer data.</p>
+          </div>
+          <div class="solution-card" data-aos="flip-left" data-aos-delay="600" id="sol-scale">
+            <div class="solution-illustration ill-scale" aria-hidden="true"></div>
+            <h3 class="solution-title">Scalable Architecture</h3>
+            <p class="solution-desc">Engineered on modern cloud environments designed to absorb heavy transactional spikes and structural volume changes seamlessly.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section-bg-light" id="services-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Operational Capabilities</span>
+          <h2 class="section-title">Bespoke Digital Services</h2>
+          <p class="section-subtitle">We build everything from high-conversion landing pages to full-scale enterprise software systems.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="50" id="ser-corp">
+            <div class="service-icon-wrap" aria-hidden="true">CW</div>
+            <h3 class="service-title">Corporate Websites</h3>
+            <p class="service-desc">Sophisticated portals constructed for public listed firms and established private institutions.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="100" id="ser-bus">
+            <div class="service-icon-wrap" aria-hidden="true">BW</div>
+            <h3 class="service-title">Business Websites</h3>
+            <p class="service-desc">Feature-rich digital hubs built specifically to support day-to-day operations and growth.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="150" id="ser-land">
+            <div class="service-icon-wrap" aria-hidden="true">LP</div>
+            <h3 class="service-title">Landing Pages</h3>
+            <p class="service-desc">High-intent landing structures optimized to convert specific promotional traffic streams.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="200" id="ser-ecom">
+            <div class="service-icon-wrap" aria-hidden="true">EC</div>
+            <h3 class="service-title">Ecommerce Platforms</h3>
+            <p class="service-desc">High-velocity transaction structures designed to process card operations cleanly.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="250" id="ser-port">
+            <div class="service-icon-wrap" aria-hidden="true">PW</div>
+            <h3 class="service-title">Portfolio Websites</h3>
+            <p class="service-desc">Visually outstanding presentation assets for elite agencies, artists, and executives.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="300" id="ser-app">
+            <div class="service-icon-wrap" aria-hidden="true">WA</div>
+            <h3 class="service-title">Web Applications</h3>
+            <p class="service-desc">Tailored logic-heavy cloud tools that simplify high-scale company workloads.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="350" id="ser-lms">
+            <div class="service-icon-wrap" aria-hidden="true">LM</div>
+            <h3 class="service-title">LMS Solutions</h3>
+            <p class="service-desc">Interactive learning management architectures built for corporate upskilling programs.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="400" id="ser-crm">
+            <div class="service-icon-wrap" aria-hidden="true">CR</div>
+            <h3 class="service-title">CRM Integrations</h3>
+            <p class="service-desc">Custom portals built to link pipeline tracking data smoothly to sales funnels.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="450" id="ser-erp">
+            <div class="service-icon-wrap" aria-hidden="true">ER</div>
+            <h3 class="service-title">ERP Portals</h3>
+            <p class="service-desc">Secure web interfaces designed to help departments manage cross-operational resources.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="500" id="ser-cms">
+            <div class="service-icon-wrap" aria-hidden="true">CM</div>
+            <h3 class="service-title">CMS Implementations</h3>
+            <p class="service-desc">Headless content panels that empower marketing teams to distribute content instantly.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="550" id="ser-ui">
+            <div class="service-icon-wrap" aria-hidden="true">UX</div>
+            <h3 class="service-title">UI/UX Craftsmanship</h3>
+            <p class="service-desc">Comprehensive visual interface blueprints focused on clarity and aesthetic appeal.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="600" id="ser-seo">
+            <div class="service-icon-wrap" aria-hidden="true">SE</div>
+            <h3 class="service-title">SEO Engineering</h3>
+            <p class="service-desc">Deep technical index-readiness optimizations that consistently outperform expectations.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="650" id="ser-maint">
+            <div class="service-icon-wrap" aria-hidden="true">MN</div>
+            <h3 class="service-title">Maintenance Cycles</h3>
+            <p class="service-desc">Persistent dependency audits, updates, and threat patches to ensure zero down-time.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="700" id="ser-host">
+            <div class="service-icon-wrap" aria-hidden="true">HS</div>
+            <h3 class="service-title">Premium Hosting</h3>
+            <p class="service-desc">Hyper-fast server placements leveraging high-availability edge delivery networks.</p>
+          </div>
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="750" id="ser-dom">
+            <div class="service-icon-wrap" aria-hidden="true">DM</div>
+            <h3 class="service-title">Domain Strategy</h3>
+            <p class="service-desc">Safe DNS setups, namespace management, and routing to ensure uninterrupted global access.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPMENT PROCESS -->
+    <section class="section-bg-white" id="process-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">How We Deliver</span>
+          <h2 class="section-title">The Engineering Blueprint</h2>
+          <p class="section-subtitle">Our rigid phase-gate delivery process guarantees visual perfection and code integrity at every milestone.</p>
+        </div>
+
+        <div class="process-wrapper">
+          <div class="process-timeline" id="timeline">
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="100">
+              <div class="process-node"><span class="process-num">01</span><span class="process-name">Discovery</span></div>
+            </div>
+            <span class="process-arrow" aria-hidden="true">→</span>
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="200">
+              <div class="process-node"><span class="process-num">02</span><span class="process-name">Requirement</span></div>
+            </div>
+            <span class="process-arrow" aria-hidden="true">→</span>
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="300">
+              <div class="process-node"><span class="process-num">03</span><span class="process-name">Wireframe</span></div>
+            </div>
+            <span class="process-arrow" aria-hidden="true">→</span>
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="400">
+              <div class="process-node"><span class="process-num">04</span><span class="process-name">Design</span></div>
+            </div>
+            <span class="process-arrow" aria-hidden="true">→</span>
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="500">
+              <div class="process-node"><span class="process-num">05</span><span class="process-name">Development</span></div>
+            </div>
+            <span class="process-arrow" aria-hidden="true">→</span>
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="600">
+              <div class="process-node"><span class="process-num">06</span><span class="process-name">Testing</span></div>
+            </div>
+            <span class="process-arrow" aria-hidden="true">→</span>
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="700">
+              <div class="process-node"><span class="process-num">07</span><span class="process-name">Deployment</span></div>
+            </div>
+            <span class="process-arrow" aria-hidden="true">→</span>
+            <div class="process-step" data-aos="zoom-in" data-aos-delay="800">
+              <div class="process-node" style="border-color: var(--primary-orange);">
+                <span class="process-num" style="color: var(--primary-orange);">08</span>
+                <span class="process-name">Support</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="section-bg-light" id="tech-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Modern Engineering Stack</span>
+          <h2 class="section-title">Engineered on Best Practices</h2>
+          <p class="section-subtitle">We select industry-leading frameworks and environments to produce fast, responsive, and long-term maintainable structures.</p>
+        </div>
+
+        <div class="tech-grid">
+          <div class="tech-card" data-aos="fade-up" data-aos-delay="100" id="tech-front">
+            <h3 class="tech-card-title">Frontend</h3>
+            <div class="tech-badges">
+              <span class="tech-badge">React 19</span>
+              <span class="tech-badge">TypeScript</span>
+              <span class="tech-badge">HTML5 Semantics</span>
+              <span class="tech-badge">CSS3 Custom</span>
+              <span class="tech-badge">Vite Engine</span>
+              <span class="tech-badge">Next.js</span>
+            </div>
+          </div>
+          <div class="tech-card" data-aos="fade-up" data-aos-delay="200" id="tech-back">
+            <h3 class="tech-card-title">Backend</h3>
+            <div class="tech-badges">
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Express API</span>
+              <span class="tech-badge">Python Core</span>
+              <span class="tech-badge">FastAPI</span>
+              <span class="tech-badge">Serverless</span>
+            </div>
+          </div>
+          <div class="tech-card" data-aos="fade-up" data-aos-delay="300" id="tech-db">
+            <h3 class="tech-card-title">Database</h3>
+            <div class="tech-badges">
+              <span class="tech-badge">PostgreSQL</span>
+              <span class="tech-badge">Cloud SQL</span>
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">Redis Cache</span>
+              <span class="tech-badge">Firestore</span>
+            </div>
+          </div>
+          <div class="tech-card" data-aos="fade-up" data-aos-delay="400" id="tech-cms">
+            <h3 class="tech-card-title">CMS</h3>
+            <div class="tech-badges">
+              <span class="tech-badge">Sanity.io</span>
+              <span class="tech-badge">Strapi Headless</span>
+              <span class="tech-badge">WordPress Core</span>
+              <span class="tech-badge">Decoupled UI</span>
+            </div>
+          </div>
+          <div class="tech-card" data-aos="fade-up" data-aos-delay="500" id="tech-cloud">
+            <h3 class="tech-card-title">Cloud</h3>
+            <div class="tech-badges">
+              <span class="tech-badge">Google Cloud</span>
+              <span class="tech-badge">Vercel Edge</span>
+              <span class="tech-badge">Docker Setup</span>
+              <span class="tech-badge">Cloud Run</span>
+              <span class="tech-badge">AWS S3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEBSITE PACKAGES -->
+    <section class="section-bg-white" id="packages-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Pricing Plans</span>
+          <h2 class="section-title">Premium Pricing Models</h2>
+          <p class="section-subtitle">Clear, predictable plans engineered specifically to accommodate small companies up to high-velocity enterprises.</p>
+        </div>
+
+        <div class="packages-grid">
+          <div class="package-card" data-aos="fade-right" data-aos-delay="100" id="pkg-starter">
+            <div class="package-header">
+              <h3 class="package-name">Starter Package</h3>
+              <p class="package-desc">Best suited for growing boutique brands needing a clean, high-impact presence.</p>
+            </div>
+            <div class="package-pricing">
+              <span class="package-currency">$</span>
+              <span class="package-price">1,499</span>
+              <span class="package-term">/ flat</span>
+            </div>
+            <ul class="package-features">
+              <li>1x Handcrafted Landing Page</li>
+              <li>Fully Responsive Setup</li>
+              <li>Core SEO Optimization</li>
+              <li>Standard Speed Configuration</li>
+              <li>1 Month Support Cycle</li>
+            </ul>
+          </div>
+
+          <div class="package-card featured" data-aos="zoom-in" data-aos-delay="200" id="pkg-business">
+            <div class="featured-label">RECOMMENDED</div>
+            <div class="package-header">
+              <h3 class="package-name">Business Package</h3>
+              <p class="package-desc">Perfect setup for growing companies aiming to expand local market dominance.</p>
+            </div>
+            <div class="package-pricing">
+              <span class="package-currency">$</span>
+              <span class="package-price">3,499</span>
+              <span class="package-term">/ flat</span>
+            </div>
+            <ul class="package-features">
+              <li>Up to 5x Premium Core Pages</li>
+              <li>Advanced UI Architecture</li>
+              <li>Full Technical SEO Scheme</li>
+              <li>Custom Animations (CSS only)</li>
+              <li>Headless CMS Setup</li>
+              <li>3 Months Premium Support</li>
+            </ul>
+          </div>
+
+          <div class="package-card" data-aos="fade-left" data-aos-delay="300" id="pkg-enterprise">
+            <div class="package-header">
+              <h3 class="package-name">Enterprise</h3>
+              <p class="package-desc">Custom complex web engines designed to process large departmental logic cycles.</p>
+            </div>
+            <div class="package-pricing">
+              <span class="package-currency">$</span>
+              <span class="package-price">7,999</span>
+              <span class="package-term">/ start</span>
+            </div>
+            <ul class="package-features">
+              <li>Bespoke Infinite Multi-Page Hub</li>
+              <li>Tailored Backend API Linkage</li>
+              <li>Premium Database Architecture</li>
+              <li>99.9% Speed Optimization</li>
+              <li>Strict Penetration Firewalls</li>
+              <li>1 Year Direct Engineering Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section class="section-bg-light" id="cases-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Success Stories</span>
+          <h2 class="section-title">Case Studies</h2>
+          <p class="section-subtitle">Explore how Oppty TechHub builds strategic infrastructure that fuels measurable corporate expansion.</p>
+        </div>
+
+        <div class="case-grid">
+          <div class="case-card" data-aos="fade-up" data-aos-delay="100" id="case-pulse">
+            <div class="case-image-holder case-art-1" aria-hidden="true"></div>
+            <div class="case-content">
+              <span class="case-industry">HealthTech / SaaS</span>
+              <h3 class="case-title">Aura Pulse Care</h3>
+              <div class="case-details">
+                <p class="case-detail-row"><strong>Objective:</strong> Upgrade a legacy patient-scheduling dashboard experiencing high user bounce-rates.</p>
+                <p class="case-detail-row"><strong>Solution:</strong> Fabricated a lightweight, responsive patient intake portal with advanced glassmorphism components.</p>
+                <p class="case-detail-row"><strong>Technologies:</strong> React 19, TypeScript, Secured FastAPI Backend, Firestore.</p>
+                <p class="case-detail-row"><strong>Outcome:</strong> Achieved 45% lower user drop-off metrics and boosted patient retention by 30% in three months.</p>
+              </div>
+              <p class="case-testimonial">"Oppty TechHub delivered a gorgeous dashboard that absolutely revolutionized our patient intake process. Our staff and patients are equally thrilled." — Dr. Helen Vance, CEO</p>
+            </div>
+          </div>
+
+          <div class="case-card" data-aos="fade-up" data-aos-delay="200" id="case-apex">
+            <div class="case-image-holder case-art-2" aria-hidden="true"></div>
+            <div class="case-content">
+              <span class="case-industry">FinTech / Trading</span>
+              <h3 class="case-title">Apex Asset Management</h3>
+              <div class="case-details">
+                <p class="case-detail-row"><strong>Objective:</strong> Architect a highly secured landing interface to onboard accredited investors securely.</p>
+                <p class="case-detail-row"><strong>Solution:</strong> Built a performance-optimized web portal featuring custom geometric animations and high-security headers.</p>
+                <p class="case-detail-row"><strong>Technologies:</strong> Next.js, Cloud SQL PostgreSQL, Docker Containerization.</p>
+                <p class="case-detail-row"><strong>Outcome:</strong> Scaled platform sign-ups by 180% within the initial 45 days after launch while maintaining zero safety flags.</p>
+              </div>
+              <p class="case-testimonial">"The attention to security and lightning-fast loading speeds on our new platform instantly won the trust of our corporate partners." — Marcus Reynolds, CSO</p>
+            </div>
+          </div>
+
+          <div class="case-card" data-aos="fade-up" data-aos-delay="300" id="case-prime">
+            <div class="case-image-holder case-art-3" aria-hidden="true"></div>
+            <div class="case-content">
+              <span class="case-industry">Retail / Logistics</span>
+              <h3 class="case-title">Velo Logistics Group</h3>
+              <div class="case-details">
+                <p class="case-detail-row"><strong>Objective:</strong> Centralize package-tracking indicators on an interface capable of heavy search loads.</p>
+                <p class="case-detail-row"><strong>Solution:</strong> Designed an elegant package tracking dashboard with integrated real-time map placeholders.</p>
+                <p class="case-detail-row"><strong>Technologies:</strong> Node.js, Express Core API, Redis Cache cluster, HTML5.</p>
+                <p class="case-detail-row"><strong>Outcome:</strong> Standardized customer portal speed to sub-100ms response times, saving internal support teams 40% in call volumes.</p>
+              </div>
+              <p class="case-testimonial">"Our customers can now track packages instantly. Oppty TechHub cut down our support workloads significantly with their design." — Sarah Jenkins, Ops Director</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INDUSTRIES SERVED -->
+    <section class="section-bg-white" id="industries-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Versatility & Range</span>
+          <h2 class="section-title">Industries Served</h2>
+          <p class="section-subtitle">We construct specialized digital platforms across ten major global corporate ecosystems.</p>
+        </div>
+
+        <div class="industries-grid">
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="50" id="ind-health">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">HC</div></div>
+            <span class="industry-name">Healthcare</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="100" id="ind-edu">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">ED</div></div>
+            <span class="industry-name">Education</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="150" id="ind-fin">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">FI</div></div>
+            <span class="industry-name">Finance</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="200" id="ind-retail">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">RT</div></div>
+            <span class="industry-name">Retail</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="250" id="ind-mfg">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">MF</div></div>
+            <span class="industry-name">Manufacturing</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="300" id="ind-estate">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">RE</div></div>
+            <span class="industry-name">Real Estate</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="350" id="ind-hosp">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">HP</div></div>
+            <span class="industry-name">Hospitality</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="400" id="ind-it">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">IT</div></div>
+            <span class="industry-name">IT Sector</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="450" id="ind-ngo">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">NG</div></div>
+            <span class="industry-name">NGOs</span>
+          </div>
+          <div class="industry-item" data-aos="zoom-in" data-aos-delay="500" id="ind-log">
+            <div class="industry-circle" aria-hidden="true"><div class="industry-circle-inner">LO</div></div>
+            <span class="industry-name">Logistics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="section-bg-light" id="why-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Unfair Advantage</span>
+          <h2 class="section-title">Why Global Brands Partner with Us</h2>
+          <p class="section-subtitle">Seven core pillars that separate Oppty TechHub from typical design agencies.</p>
+        </div>
+
+        <div class="why-container">
+          <div class="why-row" data-aos="fade-right" id="why-row-design">
+            <div class="why-content">
+              <span class="badge">Pillar 01</span>
+              <h3 class="why-title">Professional Design</h3>
+              <p class="why-desc">Our design philosophy hinges on premium Swiss minimalism, beautiful layout balance, high-fidelity color pairings, and pixel-level precision that portrays unmatched quality.</p>
+            </div>
+            <div class="why-visual" aria-hidden="true">
+              <div class="graphic-grid-dots">
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-aos="fade-left" id="why-row-strategy">
+            <div class="why-content">
+              <span class="badge">Pillar 02</span>
+              <h3 class="why-title">Business Strategy</h3>
+              <p class="why-desc">We never construct websites in a vacuum. Every layout, copy location, and interactive component is tailored specifically to increase your organizational pipeline volume and bottom line.</p>
+            </div>
+            <div class="why-visual" aria-hidden="true">
+              <div class="graphic-line-waves"><span></span><span></span><span></span><span></span></div>
+            </div>
+          </div>
+
+          <div class="why-row" data-aos="fade-right" id="why-row-seo">
+            <div class="why-content">
+              <span class="badge">Pillar 03</span>
+              <h3 class="why-title">Technical SEO Setup</h3>
+              <p class="why-desc">We compile clean, standard semantic structures that allow Google crawling spiders to instantly categorize and index your corporate pages at record speeds.</p>
+            </div>
+            <div class="why-visual" aria-hidden="true">
+              <div class="graphic-circular-radar"></div>
+            </div>
+          </div>
+
+          <div class="why-row" data-aos="fade-left" id="why-row-delivery">
+            <div class="why-content">
+              <span class="badge">Pillar 04</span>
+              <h3 class="why-title">On-Time Delivery</h3>
+              <p class="why-desc">Using our rigid delivery timeline, we ensure all wireframe approvals, structural stages, and final code transfers finish exactly on scheduled dates.</p>
+            </div>
+            <div class="why-visual" aria-hidden="true">
+              <div class="graphic-grid-dots">
+                <span style="opacity: 0.9;"></span><span></span><span></span><span style="opacity: 0.9;"></span>
+                <span></span><span style="opacity: 0.9;"></span><span style="opacity: 0.9;"></span><span></span>
+                <span></span><span style="opacity: 0.9;"></span><span style="opacity: 0.9;"></span><span></span>
+                <span style="opacity: 0.9;"></span><span></span><span></span><span style="opacity: 0.9;"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-aos="fade-right" id="why-row-support">
+            <div class="why-content">
+              <span class="badge">Pillar 05</span>
+              <h3 class="why-title">Persistent Support</h3>
+              <p class="why-desc">Deployments are just the starting point. Our engineering team stands ready to deliver prompt, direct assistance, dependency upgrades, and security checks.</p>
+            </div>
+            <div class="why-visual" aria-hidden="true">
+              <div class="graphic-line-waves" style="transform: rotate(180deg);">
+                <span style="background: var(--deep-navy);"></span>
+                <span></span>
+                <span style="background: var(--deep-navy);"></span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="why-row" data-aos="fade-left" id="why-row-scalable">
+            <div class="why-content">
+              <span class="badge">Pillar 06</span>
+              <h3 class="why-title">Scalable Systems</h3>
+              <p class="why-desc">By decoupling static presentation layers from business logic backend services, we ensure your page architecture remains incredibly stable during major growth spikes.</p>
+            </div>
+            <div class="why-visual" aria-hidden="true">
+              <div class="graphic-circular-radar" style="border-style: dotted; border-color: var(--deep-navy);"></div>
+            </div>
+          </div>
+
+          <div class="why-row" data-aos="fade-right" id="why-row-secure">
+            <div class="why-content">
+              <span class="badge">Pillar 07</span>
+              <h3 class="why-title">Secure Development</h3>
+              <p class="why-desc">We follow strict OWASP security criteria, implementing safe data-handling logic, hardened TLS handshakes, and strong firewalls to block potential attacks.</p>
+            </div>
+            <div class="why-visual" aria-hidden="true">
+              <div class="graphic-grid-dots" style="transform: rotate(45deg);">
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+                <span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENT TESTIMONIALS -->
+    <section class="section-bg-white" id="testimonials-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Market Reputation</span>
+          <h2 class="section-title">Client Testimonials</h2>
+          <p class="section-subtitle">Hear directly from industry leaders who restructured their digital operations with Oppty TechHub.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100" id="test-1">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-quote">"Partnering with Oppty TechHub to build our cloud system was the single best digital investment we made this fiscal year. The interface quality is sublime."</p>
+            <div class="client-info">
+              <div class="client-photo">AL</div>
+              <div class="client-meta">
+                <span class="client-name">Angela Lawson</span>
+                <span class="client-role">VP of Marketing, Horizon Media</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200" id="test-2">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-quote">"Their rigid process-timeline meant zero surprises. They shipped a fast, responsive trading landing platform that our clients explicitly praise."</p>
+            <div class="client-info">
+              <div class="client-photo">DB</div>
+              <div class="client-meta">
+                <span class="client-name">Devon Lane</span>
+                <span class="client-role">Lead Architect, Apex Brokerage</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300" id="test-3">
+            <div class="stars" aria-label="5 out of 5 stars">
+              <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span>
+            </div>
+            <p class="testimonial-quote">"We expected a simple website upgrade, but received a beautifully optimized CRM funnel interface that immediately boosted our sales productivity."</p>
+            <div class="client-info">
+              <div class="client-photo">CH</div>
+              <div class="client-meta">
+                <span class="client-name">Courtney Henry</span>
+                <span class="client-role">Director, Nexus Logistics Group</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPANY METRICS -->
+    <section class="section-bg-navy" id="metrics-section">
+      <div class="navy-animated-bg">
+        <div class="navy-orb navy-orb-1"></div>
+        <div class="navy-orb navy-orb-2"></div>
+        <div class="navy-grid-overlay"></div>
+      </div>
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge badge-navy">Our Scale</span>
+          <h2 class="section-title">Performance Metrics</h2>
+          <p class="section-subtitle">Real numbers that demonstrate our commitment to world-class software engineering and product delivery.</p>
+        </div>
+
+        <div class="metrics-grid">
+          <div class="metric-item" data-aos="zoom-in" data-aos-delay="100" id="metric-1">
+            <span class="metric-number counter" data-target="100" data-suffix="+">0</span>
+            <span class="metric-label">Completed Projects</span>
+            <span class="metric-desc">Bespoke web applications and landing pages shipped globally.</span>
+          </div>
+          <div class="metric-item" data-aos="zoom-in" data-aos-delay="200" id="metric-2">
+            <span class="metric-number counter" data-target="95" data-suffix="%">0</span>
+            <span class="metric-label">Retention Rate</span>
+            <span class="metric-desc">Firms that retain us for secondary cloud support cycles.</span>
+          </div>
+          <div class="metric-item" data-aos="zoom-in" data-aos-delay="300" id="metric-3">
+            <span class="metric-number counter" data-target="98" data-suffix="%">0</span>
+            <span class="metric-label">Optimization Rating</span>
+            <span class="metric-desc">Perfect scores registered on performance audits.</span>
+          </div>
+          <div class="metric-item" data-aos="zoom-in" data-aos-delay="400" id="metric-4">
+            <span class="metric-number">24/7</span>
+            <span class="metric-label">Direct Monitoring</span>
+            <span class="metric-desc">Continuous threat detection for corporate databases.</span>
+          </div>
+          <div class="metric-item" data-aos="zoom-in" data-aos-delay="500" id="metric-5">
+            <span class="metric-number counter" data-target="10" data-suffix="+">0</span>
+            <span class="metric-label">Global Sectors</span>
+            <span class="metric-desc">Wide operational expertise across diverse industries.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ENGAGEMENT MODELS -->
+    <section class="section-bg-white" id="engagement-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Cooperation Frameworks</span>
+          <h2 class="section-title">Flexible Engagement Models</h2>
+          <p class="section-subtitle">We adapt our structured workflow to fit the specific commercial requirements of your corporate operations.</p>
+        </div>
+
+        <div class="engagement-grid">
+          <div class="engagement-card" data-aos="fade-up" data-aos-delay="100" id="model-fixed">
+            <h3 class="engagement-title">Fixed Cost Model</h3>
+            <p class="engagement-desc">Perfect for clearly scoped projects with specific wireframes. Get a guaranteed, predefined price and exact delivery timeline without budget overflows.</p>
+          </div>
+          <div class="engagement-card" data-aos="fade-up" data-aos-delay="200" id="model-monthly">
+            <h3 class="engagement-title">Monthly Retainer</h3>
+            <p class="engagement-desc">Highly flexible model best suited for fluid requirements. Easily scale scope or request adjustments as your company pivots in real-time.</p>
+          </div>
+          <div class="engagement-card" data-aos="fade-up" data-aos-delay="300" id="model-team">
+            <h3 class="engagement-title">Dedicated Team</h3>
+            <p class="engagement-desc">A specialized, handpicked team of frontend and backend software engineers focused exclusively on building your corporate web solutions.</p>
+          </div>
+          <div class="engagement-card" data-aos="fade-up" data-aos-delay="400" id="model-amc">
+            <h3 class="engagement-title">Annual Support (AMC)</h3>
+            <p class="engagement-desc">Ensure absolute long-term safety and performance with persistent server checkups, backup transfers, and direct priority bug resolution.</p>
+          </div>
+          <div class="engagement-card" data-aos="fade-up" data-aos-delay="500" id="model-white">
+            <h3 class="engagement-title">White Label Setup</h3>
+            <p class="engagement-desc">Designed explicitly for partner agencies. We build top-tier, high-fidelity web applications delivered completely under your firm's brand identity.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUPPORT & MAINTENANCE -->
+    <section class="section-bg-light" id="support-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Operational Longevity</span>
+          <h2 class="section-title">Support & Maintenance Framework</h2>
+          <p class="section-subtitle">A six-tier maintenance protocol to secure your web ecosystem against security challenges and visual decay.</p>
+        </div>
+
+        <div class="support-timeline">
+          <div class="support-item" data-aos="fade-up" data-aos-delay="100" id="sup-bug">
+            <h3 class="support-title">Bug Fixes</h3>
+            <p class="support-desc">Rapid resolution cycles targeting broken visual components or script errors, preserving high operational health.</p>
+          </div>
+          <div class="support-item" data-aos="fade-up" data-aos-delay="200" id="sup-update">
+            <h3 class="support-title">Software Updates</h3>
+            <p class="support-desc">Persistent package version tracking and clean integration migrations, avoiding structural legacy breakdown.</p>
+          </div>
+          <div class="support-item" data-aos="fade-up" data-aos-delay="300" id="sup-backup">
+            <h3 class="support-title">Data Backups</h3>
+            <p class="support-desc">Automated weekly and monthly database snapshots sent directly to highly isolated secure storage buckets.</p>
+          </div>
+          <div class="support-item" data-aos="fade-up" data-aos-delay="400" id="sup-opt">
+            <h3 class="support-title">Speed Optimization</h3>
+            <p class="support-desc">Periodic asset compression audits, cache-control upgrades, and server-routing tune-ups for fast performance.</p>
+          </div>
+          <div class="support-item" data-aos="fade-up" data-aos-delay="500" id="sup-enh">
+            <h3 class="support-title">Enhancements</h3>
+            <p class="support-desc">Seamless addition of minor features, layout alterations, or promotional sections to support ongoing marketing.</p>
+          </div>
+          <div class="support-item" data-aos="fade-up" data-aos-delay="600" id="sup-mon">
+            <h3 class="support-title">24/7 Monitoring</h3>
+            <p class="support-desc">Constant threat logs scanning and security alert systems to block potential distributed DDoS operations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section-bg-white" id="faq-section">
+      <div class="container">
+        <div class="section-header centered" data-aos="fade-up">
+          <span class="badge">Clear Answers</span>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-subtitle">Transparent answers about our engineering methodology, delivery stages, and pricing structures.</p>
+        </div>
+
+        <div class="faq-container">
+          <details data-aos="fade-up" data-aos-delay="100" id="faq-q1">
+            <summary>What is your typical project delivery timeline?</summary>
+            <div class="faq-content">
+              <p>For custom corporate or landing sites under our Business Package, delivery spans 4 to 6 weeks. Highly complex enterprise web applications requiring backend architecture or extensive database integrations can take 8 to 12 weeks depending on the exact wireframe requirements.</p>
+            </div>
+          </details>
+          <details data-aos="fade-up" data-aos-delay="150" id="faq-q2">
+            <summary>Will our marketing team be able to edit page content easily?</summary>
+            <div class="faq-content">
+              <p>Yes. We integrate modern headless CMS panels (like Sanity.io or Strapi) that decouple the structural code from visual content editors. This allows your sales and marketing teams to publish blog entries, update statistics, or edit service text instantly without touching a single line of code.</p>
+            </div>
+          </details>
+          <details data-aos="fade-up" data-aos-delay="200" id="faq-q3">
+            <summary>Do you offer custom backend API and database development?</summary>
+            <div class="faq-content">
+              <p>Absolutely. We build fully secure custom API controllers (Node.js/Express or FastAPI) and scale-tested relational PostgreSQL or Cloud SQL databases. This is a core focus of our Enterprise Package, ensuring safe, rapid operations even under heavy multi-department usage.</p>
+            </div>
+          </details>
+          <details data-aos="fade-up" data-aos-delay="250" id="faq-q4">
+            <summary>How does the support retainer cycle operate?</summary>
+            <div class="faq-content">
+              <p>Our monthly retainer or AMC contracts allocate direct weekly development hours dedicated to monitoring, threat scanning, asset compression, database backups, and prompt minor layout updates. Think of us as your external, on-demand Chief Technology Officer.</p>
+            </div>
+          </details>
+          <details data-aos="fade-up" data-aos-delay="300" id="faq-q5">
+            <summary>What happens if our user traffic spikes suddenly?</summary>
+            <div class="faq-content">
+              <p>Because we architect our platforms using modern decoupled frontend delivery networks (Vercel Edge, Cloud Run) and optimized Redis caching, your pages scale dynamically to absorb sudden surges. This guarantees a consistent sub-second loading experience for all users.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="section-bg-light" id="cta-section">
+      <div class="container">
+        <div class="cta-box" data-aos="zoom-in" id="cta-card">
+          <div class="cta-animated-bg">
+            <div class="cta-orb cta-orb-1"></div>
+            <div class="cta-orb cta-orb-2"></div>
+          </div>
+          <!-- REPLACE 'your-logo.png' with your actual logo filename -->
+          <img src="your-logo.png" alt="Oppty TechHub" class="cta-logo-img" />
+          <h2 class="cta-heading">Ready to Engineer Your Business's Next Unfair Advantage?</h2>
+          <p class="cta-tagline">Connect directly with Oppty TechHub to schedule an architect-led structural audit of your current digital setup.</p>
+          
+          <div class="qr-container">
+            <div class="qr-code" aria-label="Oppty QR Code Contact Profile"></div>
+          </div>
+
+          <div class="cta-info-wrap">
+            <div class="cta-info-block" id="cta-info-web">
+              <span class="cta-info-label">Corporate Website</span>
+              <span class="cta-info-val">oppty.tech</span>
+            </div>
+            <div class="cta-info-block" id="cta-info-email">
+              <span class="cta-info-label">Direct Email</span>
+              <span class="cta-info-val">hello@oppty.tech</span>
+            </div>
+            <div class="cta-info-block" id="cta-info-phone">
+              <span class="cta-info-label">Phone Hotline</span>
+              <span class="cta-info-val">+1 (800) 555-0199</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- REPLACE 'your-logo.png' with your actual logo filename -->
+          <img src="oppty.png" alt="Oppty TechHub" class="footer-logo-img" />
+          <p class="footer-copy">
+            &copy; 2026 Oppty TechHub. All rights reserved. Precision Designed & Developed in high-contrast semantic code.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to top button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 15V5M10 5L5 10M10 5L15 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <!-- Cursor follower -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <script src="animations.js"></script>
+  </body>
+</html>
